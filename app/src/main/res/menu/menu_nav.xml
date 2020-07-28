@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:id="@+id/Dashboard" android:title="@string/dashboard"
+        />
+    <item android:id="@+id/Enrollment" android:title="Enrollment"/>
+    <item android:id="@+id/Attendance" android:title="@string/attendance"/>
+    <item android:id="@+id/Assignments" android:title="@string/assignments"/>
+    <item android:id="@+id/Announcements" android:title="@string/announcements"/>
+    <item android:id="@+id/Logout" android:title="@string/logout"/>
+
+
+</menu>

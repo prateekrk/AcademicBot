@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "828178583179",
+    "firebase_url": "https://academicbot-eab60.firebaseio.com",
+    "project_id": "academicbot-eab60",
+    "storage_bucket": "academicbot-eab60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828178583179:android:20f33ba480086e29aa4e8e",
+        "android_client_info": {
+          "package_name": "com.academicbot.academicbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828178583179-u29iinjl4s856tkerunffaf8lcvmkgjk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBriqZ9O6RzXJbnqpoFEFUPsMLeG63E8NI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828178583179-u29iinjl4s856tkerunffaf8lcvmkgjk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

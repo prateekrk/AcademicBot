@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".teacher_assignment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Give an assignment"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        />
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:inputType="number"
+         android:textColor="@android:color/black"
+         android:textSize="20sp"
+         android:hint="SEM"
+         android:id="@+id/editText5"
+         android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="Subject"
+        android:singleLine="true"
+        android:id="@+id/editText1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:hint="Assignment code"
+        android:id="@+id/editText2"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:hint="Assignment:"
+        android:gravity="start"
+        android:id="@+id/editText3"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="Due Date"
+        android:id="@+id/editText4"
+        />
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button1"
+        android:singleLine="true"
+        android:backgroundTint="@android:color/holo_blue_dark"/>
+    </LinearLayout>
+
+</ScrollView>

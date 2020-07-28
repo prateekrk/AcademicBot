@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Dashboard" android:id="@+id/t_dashboard"/>
+    <item android:title="Mark Attendance" android:id="@+id/mark_attendance"/>
+    <item android:title="Give Assignments" android:id="@+id/give_assignments"/>
+    <item android:title="Upload Marks" android:id="@+id/upload_marks"/>
+    <item android:title="TODO List" android:id="@+id/todo"/>
+    <item android:title="Logout" android:id="@+id/t_logout"/>
+    <item android:title="Feedback" android:id="@+id/feedback" android:icon="@android:drawable/ic_menu_send"/>
+
+
+</menu>
